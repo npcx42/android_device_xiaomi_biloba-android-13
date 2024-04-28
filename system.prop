@@ -24,7 +24,7 @@ ro.mtk_perf_response_time=1
 # identity
 Build.BRAND=MTK
 
-# GPU
+# gpu
 ro.opengles.version=196610
 
 # usb
