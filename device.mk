@@ -294,6 +294,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
+# VNDK
+PRODUCT_TARGET_VNDK_VERSION := 32
+
+PRODUCT_PACKAGES += \
+    libutils-v32 \
+    libcrypto-v32 \
+    libssl-v32
+
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.0.vendor \
